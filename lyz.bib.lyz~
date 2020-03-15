@@ -1,4 +1,4 @@
-﻿0_Q6GZ3E49 0_UD9A7VMG 0_IQF6CDPQ 0_K9VHCZCB 0_S5GB738P 0_G8SGKG54 0_775BX5T5 0_8X5AAU4J
+﻿0_Q6GZ3E49 0_UD9A7VMG 0_IQF6CDPQ 0_K9VHCZCB 0_S5GB738P 0_G8SGKG54 0_775BX5T5 0_8X5AAU4J 1_HHGCQYFV
 
 @article{marshall2017anew,
 	title = {A new haplotype of the coconut rhinoceros beetle, {Oryctes} rhinoceros, has escaped biological control by {Oryctes} rhinoceros nudivirus and is invading {Pacific} islands [in preparation]},
@@ -82,4 +82,17 @@
 	month = jul,
 	year = {2016},
 	file = {relay.pdf:/home/aubreymoore/.mozilla/firefox/2kf34kw6.default/zotero/storage/DMKAEQIU/relay.pdf:application/pdf}
+}
+
+
+
+@misc{moore2018interactive,
+	title = {Interactive {Distribution} {Map} for {Coconut} {Rhinoceros} {Beetle}},
+	url = {http://aubreymoore.github.io/crbdist/mymap.html},
+	urldate = {2018-02-10},
+	journal = {Interactive Distribution Map for Coconut Rhinoceros Beetle},
+	author = {Moore, Aubrey},
+	year = {2018},
+	keywords = {online2018},
+	file = {:/home/aubrey/Zotero/storage/F6LYQSR7/mymap.html:text/html}
 }

@@ -1,0 +1,615 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scrartcl
+\begin_preamble
+\usepackage{mciteplus}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue,citecolor=blue,urlcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Titlehead
+FY2019 Farm Bill Suggestion
+\end_layout
+
+\begin_layout Title
+2nd DRAFT
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Biological Control of Coconut Rhinoceros Beetle Biotype G
+\end_layout
+
+\begin_layout Author
+Aubrey Moore, University of Guam
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Abstract
+\end_layout
+
+\begin_layout Standard
+A newly discovered biotype of 
+\emph on
+Oryctes rhinoceros
+\emph default
+, coconut rhinoceros beetle (CRB-G), is rapidly killing coconuts and other
+ palms on Guam.
+ Uncontrolled outbreaks of CRB-G are also occurring in Papua New Guinea,
+ Solomon Islands, and Palau.
+ Eradication is being attempted on Oahu and Rota.
+ Following a failed eradication attempt on Guam, CRB-G proved hard to control
+ because this biotype is resistant to 
+\emph on
+Oryctes rhinoceros
+\emph default
+ nudivirus (OrNV), which was previously used as a very effective biological
+ control agent for control of CRB outbreaks on Pacific Islands and elsewhere.
+ 
+\end_layout
+
+\begin_layout Standard
+The primary objective of this proposed project is to stop the uncontrolled
+ outbreak on Guam.
+ Pacific-based entomologists working on CRB-G problem agree that the most
+ feasible solution is to find and release a new isolate of OrNV which is
+ highly pathogenic to CRB-G.
+ All previous OrNV releases on Pacific Islands prior to the invasion of
+ Guam by CRB-G resulted in immediate and sustained suppression of CRB damage
+ to low levels and prevented tree mortality.
+ We hope to find an OrNV isolate which will produce similar results.
+ Our plan is to search for effective OrNV isolates which are controlling
+ Asian populations of CRB-G.
+ To date, CRB-G has been detected in the Philippines, Indonesia, Thailand
+ and Taiwan 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moore2018interactive"
+
+\end_inset
+
+.
+ Foreign exploration for an effective OrNV isolate began in 2017 with an
+ expedition to Negros Island in the Philippines.
+ OrNV infecting a single CRB-G adult was isolated, but we have been unable
+ to infect CRB-G adults collected on Guam in laboratory bioassays.
+ When an effective OrNV isolate is found, it will be propagated in vivo
+ and released into the Guam CRB-G population under the terms of an existing
+ USDA-APHIS import and release permit.
+\end_layout
+
+\begin_layout Standard
+A secondary objective is to establish an island-wide monitoring system to
+ track temporal and spatial changes in the extent of CRB damage to Guam's
+ coconut palms.
+ Damage symptoms such as v-shaped cuts to fronds, bore holes, and dead standing
+ coconut palm stems are readily observed during roadside surveys.
+ Survey data will be collected using a 360 degree digital video camera mounted
+ on a truck.
+ Initially, video images of coconut palm damage by CRB-G will be detected,
+ classified and tagged by a technician.
+ When a large number of images have been tagged, these will be used to train
+ a fully automated CRB damage detection and monitoring system.
+ This automated system may be useful as an early detection device for CRB.
+\end_layout
+
+\begin_layout Section
+Technical Approach
+\end_layout
+
+\begin_layout Standard
+This project is aligned with FB Goal 6: 
+\emph on
+Enhance Mitigation and Rapid Response
+\emph default
+ and it builds on progress made with the support of FB funds from FY2014
+ through FY2018.
+\end_layout
+
+\begin_layout Subsection
+Background
+\end_layout
+
+\begin_layout Standard
+Coconut rhinoceros beetle (CRB), 
+\emph on
+Oryctes rhinoceros
+\emph default
+, is a major pest of palms.
+ Adults bore into crowns to feed on sap.
+ A palm may be killed if CRB feeding activity damages the meristem.
+ But this rarely happens at low CRB population densities.
+ CRB grubs do no damage.
+ They feed on decaying vegetation with standing dead coconuts and fallen
+ coconut logs being favored sites.
+ In addition, they can feed in many types of organic matter including dead
+ trees, green waste, saw dust, manure, compost, and even in bags of commercially
+ packaged soil
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moore2016movement"
+literal "true"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+CRB was first detected on Guam in 2007.
+ Following failure of an eradication attempt using mass trapping and sanitation,
+ the beetle spread to all parts of the island within a few years.
+ 
+\emph on
+Oryctes rhinoceros
+\emph default
+ nudivirus (OrNV) and green muscardine fungus (GMF), 
+\emph on
+Metarhizium majus
+\emph default
+, where introduced as biological control agents.
+ GMF was successfully established and a 2015 survey indicated that between
+ 10% and 38% of Guam's CRB were infected by this fungus 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moore2015efficacy"
+literal "true"
+
+\end_inset
+
+.
+ However, the preferred biocontrol agent for CRB, namely OrNV failed to
+ have any effect.
+ This lead us to discover that the population of coconut rhinoceros beetles
+ (CRB) recently established on Guam is genetically distinct from other Pacific
+ island populations of this major palm pest and it is being referred to
+ as the CRB-G biotype
+\begin_inset CommandInset citation
+LatexCommand cite
+key "marshall2015anew2,marshall2017anew"
+literal "true"
+
+\end_inset
+
+.
+ CRB-G is resistant to all available isolates of OrNV, previously the most
+ effective biocontrol agent for CRB, and it appears to have other characteristic
+s, which make it more invasive and harder to control than other CRB biotypes.
+ While there where no range expansions of CRB for a quarter of a century
+ (1980 to 2005), CRB is now on the move with the invasion of Guam in 2007,
+ the Port Moresby area of Papua New Guinea in 2009, Oahu, Hawaii in 2013,
+ and the Honiara area of Guadalcanal, Solomon Islands in 2015, and Rota
+ in 2017 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "moore2018interactive"
+
+\end_inset
+
+.
+ It is significant that all of these new invasions involve CRB-G.
+ Thus, CRB-G is a regional problem which poses significant risks to Pacific
+ island economies and ecosystems.
+\end_layout
+
+\begin_layout Standard
+The current, full-on CRB-G outbreak on Guam was triggered by Typhoon Dolphin
+ which visited Guam in May 2015.
+ It was not a very strong typhoon by Guam standards, but it was the first
+ one in more than a decade and it created a lot more damage than expected.
+ Abundant piles of decaying vegetation became CRB breeding sites.
+ Some of these new breeding sites were in villages were they could be managed.
+ But most were inaccessible: in jungles and/or on military land.
+ Within a few months, massive numbers of adults were emerging from breeding
+ sites and severely attacking palms which started to die.
+ Prior to Dolphin, we saw some heavily CRB-damaged palms, but very few dead
+ ones.
+ A self-sustaining positive feedback cycle began whereby large numbers of
+ adult beetles attacked and killed large numbers of palms which became breeding
+ sites which generated even higher numbers of adults.
+ Severe damage to Guam's palms prompted the Governor of Guam to declared
+ a state of emergency in July 2017.
+ If the Guam CRB-G infestation cannot be controlled, it is expected that
+ most palms on the island will be killed and CRB-G will spread to other
+ islands and beyond.
+ If CRB-G invades smaller islands and atolls where coconut is 
+\emph on
+the tree of life
+\emph default
+, a human tragedy will ensue.
+ On larger islands, coconut and oil palm industries will be severely impacted.
+\end_layout
+
+\begin_layout Standard
+Concerned Pacific-based entomologists are attempting to raise support for
+ coordinated regional response to CRB-G
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jackson2015needfor,vaqalo2015anemerging,marshall2016whitepaper"
+literal "true"
+
+\end_inset
+
+.
+ APHIS supported this effort by hosting a meeting at the International Congress
+ of Entomology, Florida, 2016.
+ Another meeting aimed at organizing a formal collaboration in response
+ to CRB-G is planned as part of the 2018 International Congress of Invertebrate
+ Pathology and Microbial Control and the 51st Annual Meeting of the Society
+ for Invertebrate Pathology which will be held on the Gold Coast, Queensland,
+ Australia from 12 - 16 August 2018.
+\end_layout
+
+\begin_layout Standard
+Financial assistance from the proposed grant will facilitate:
+\end_layout
+
+\begin_layout Enumerate
+continued support of an international collaborative project with the goal
+ of discovering an isolate of OrNV or other microbial biocontrol agent which
+ can be used for long-term suppression of CRB-G populations
+\end_layout
+
+\begin_layout Enumerate
+continued support for a graduate research assistant at the University of
+ Guam
+\end_layout
+
+\begin_layout Enumerate
+continued support for operation of an insect pathology laboratory at the
+ University of Guam to evaluate candidate biocontrol agents discovered during
+ foreign exploration
+\end_layout
+
+\begin_layout Enumerate
+support for establishment and operation of island-wide CRB damage surveys
+ on Guam
+\end_layout
+
+\begin_layout Subsection
+Project Staff
+\end_layout
+
+\begin_layout Itemize
+PI: Aubrey Moore, PhD; Insect Ecologist
+\end_layout
+
+\begin_layout Itemize
+James Grasela, PhD; Insect Pathologist; funded for 2 years by a grant from
+ Dept.
+ of Interior, Office of Island Affairs
+\end_layout
+
+\begin_layout Itemize
+Roland Quitugua, MS; Plant Pathologist; Collaborator
+\end_layout
+
+\begin_layout Itemize
+Ian Iriarte, BS; Graduate Assistant
+\end_layout
+
+\begin_layout Itemize
+Sean Marshall, PhD; Insect Pathologist; Collaborator; Participation funded
+ by a contract between the University of Guam and AgResearch New Zealand
+\end_layout
+
+\begin_layout Subsection
+Objective 1: Find an OrNV Isolate which is Highly Effective for Long-term
+ Suppression of CRB-G Populations
+\end_layout
+
+\begin_layout Subsubsection
+Regional Collaboration
+\end_layout
+
+\begin_layout Standard
+Moore will continue to work with collaborators at AgResearch New Zealand,
+ the Secretariat of the Pacific Community (SPC) and others to put together
+ a regional collaboration with the objective of finding an effective biocontrol
+ agent for CRB-G.
+ A meeting aimed at organizing a formal collaboration in response to CRB-G
+ is planned as part of the 2018 International Congress of Invertebrate Pathology
+ and Microbial Control and the 51st Annual Meeting of the Society for Invertebra
+te Pathology which will be held on the Gold Coast, Queensland, Australia
+ from 12 - 16 August 2018.
+ Moore, Grasela, Quitugua Iriarte will participate in this meeting.
+\end_layout
+
+\begin_layout Subsubsection
+Foreign Exploration for an Effective Biocontrol Agent for CRB-G
+\end_layout
+
+\begin_layout Standard
+Foreign exploration in search of a microbial biocontrol agent for CRB-G
+ is already underway.
+\end_layout
+
+\begin_layout Standard
+During January, 2017, Moore, Iriarte and Marshall did field work on Negros
+ Island, Philippines, were CRB-G coexists with other CRB biotypes.
+ The major objective was to find an effective biocontrol agent for CRB-G
+ and a secondary objective was to develop and test protocols for further
+ foreign exploration.
+ DNA analysis of CRB and OrNV from rhino beetle gut samples collected during
+ the trip is being done by Dr.
+ Sean Marshall in his lab at AgResearch New Zealand.
+ All CRB samples collected during the trip were determined to be CRB-G biotype.
+ Only one sample was infected with OrNV.
+ This isolate was propagated in insect cell culture and samples were shipped
+ to Guam for biossay.
+ Field collected CRB-G field-collected adults were challenged applying virus
+ solution to mouth parts.
+ No significant effects were observed in comparison to experimental controls
+ (see technical report in the 
+\emph on
+Prior Experience
+\emph default
+ section).
+\end_layout
+
+\begin_layout Standard
+A trip to Taiwan is being planned.
+ Shizu Watanabe observed an 82% OrNV infection rate in CRB-G collected from
+ this island 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "watanabe2016survey"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Establish Sustainable Biocontrol of CRB-G by Autodissemination
+\end_layout
+
+\begin_layout Standard
+When bioassays indicate that an OrNV isolate is a potential biocontrol candidate
+, the virus will b propagated in vivo and released into the Guam CRB-G populatio
+n by autodissemination.
+ Otherwise, foreign exploration will continue until a pathogenic isolate
+ is found.
+\end_layout
+
+\begin_layout Standard
+On Guam, beetles for bioassays, in vivo propagation and autodissemination
+ will be field collected from breeding sites and pheromone traps because
+ this is far more efficient than rearing beetles in the lab at the current
+ time.
+\end_layout
+
+\begin_layout Standard
+Concurrent with autodissemination releases, laboratory bioassays will be
+ performed to quantify the toxic (LD50, LT50, etc.) and nontoxic effects
+ (fecundity, flight capability, etc.) of OrNV on CRB.
+ There will also be an attempt to increase virulence by cycling isolates
+ through several generations of beetles.
+ Beetles used in bioassays will be field collected and maintained in individual
+ Mason jars for at least a month prior to being used to make sure they are
+ healthy.
+\end_layout
+
+\begin_layout Subsection
+Objective 2: Establish a Sustainable Coconut Palm Health Monitoring System
+\end_layout
+
+\begin_layout Standard
+The CRB-G outbreak on Guam is currently unmonitored on an island-wide basis.
+ An island-wide pheromone trapping system, using about 1500 traps, was operated
+ by the University of Guam from 2008 to 2014.
+ This monitoring system was transferred to the Guam Department of Agriculture
+ which abandoned the effort at the end of February, 2016.
+ Currently, many coconut palms are being killed by CRB-G.
+ But, in the absence of a monitoring system, we do not have an estimate
+ of tree mortality or whether or not the damage is increasing or decreasing.
+\end_layout
+
+\begin_layout Standard
+Clearly, establishment of a monitoring system is necessary if we want to
+ evaluate success of the proposed biocontrol project, or any other mitigation
+ efforts.
+ We intend to establish a establish a monitoring system to track temporal
+ and spatial changes in the extent of CRB damage to Guam's coconut palms.
+ Damage symptoms such as v-shaped cuts to fronds, bore holes, and dead standing
+ coconut palm stems are readily observed during roadside surveys.
+ Survey data will be collected using a 360 degree digital video camera mounted
+ on a truck.
+ Initially, video images of coconut palm damage by CRB-G will be detected,
+ classified and tagged by a technician.
+ When a large number of images have been tagged, these will be used to train
+ a fully automated CRB damage detection and monitoring system.
+ This automated system may be useful as an early detection device for CRB.
+ Roadside surveys on Guam will be performed at least quarterly.
+\end_layout
+
+\begin_layout Subsection
+Timeline
+\end_layout
+
+\begin_layout Standard
+Coming soon.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "lyz"
+options "bibtotoc,IEEEtran"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Impacts and Benefits
+\end_layout
+
+\begin_layout Itemize
+Foreign exploration leading to discovery of a highly pathogenic strain of
+ OrNV or other microbial biocontrol agent for CRB-Guam could lead to implementat
+ion of self sustaining population suppression and tolerable damage levels
+ on Guam and other islands invaded by CRB-G.
+\end_layout
+
+\begin_layout Itemize
+Loss of 50% or more of Guam's palms may be prevented if an effective biocontrol
+ agent is found and released quickly.
+\end_layout
+
+\begin_layout Itemize
+Reduction in CRB population levels on Guam will reduce the risk of accidental
+ of the highly invasive CRB-Guam biotype to other Pacific islands and elsewhere.
+\end_layout
+
+\begin_layout Itemize
+Development of image analysis methods may lead to a small, inexpensive,
+ automated CRB damage detector which could be mounted on a drone or a convention
+al vehicle.
+ This device could be used for early detection or monitoring of CRB damage.
+\end_layout
+
+\begin_layout Section
+Prior Experience
+\end_layout
+
+\begin_layout Subsection
+Most Recent APHIS Farm Bill Progress Report
+\end_layout
+
+\begin_layout Standard
+Please see following page.
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename FB17_report1.pdf
+	display false
+	extra LaTeX "pages=-"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Budget
+\end_layout
+
+\begin_layout Standard
+Coming soon.
+\end_layout
+
+\end_body
+\end_document
