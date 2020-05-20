@@ -1,0 +1,110 @@
+\documentclass[11pt,english,letterpaper]{scrartcl}
+
+
+% Used tips from this blog to squish things:
+% https://robjhyndman.com/hyndsight/squeezing-space-with-latex/
+
+\listfiles
+
+\usepackage[text={6.5in,9in}]{geometry}
+\usepackage{mathptmx}
+\setlength{\parskip}{0cm}
+\setlength{\parindent}{1em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% And this is something I found:
+\linespread{0.8}
+
+%\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\usepackage{color}
+\usepackage{babel}
+
+\usepackage[unicode=true, 
+pdfusetitle,
+bookmarks=true,
+bookmarksnumbered=false,
+bookmarksopen=false,
+breaklinks=true,
+pdfborder={0 0 1},
+backref=false,
+colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]
+{hyperref}
+
+\usepackage{indentfirst}
+\usepackage{pgfgantt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{ragged2e}
+\usepackage{comment}
+\usepackage{pdfpages}
+%\usepackage{graphicx}
+
+\makeatother
+
+\begin{document}
+	
+\begin{ganttchart}[hgrid,
+   	vgrid,
+   	x unit=0.4cm,
+   	y unit chart=0.8cm,
+   	time slot format={isodate-yearmonth},  
+   	compress calendar,  	
+  		group label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+  		bar label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+  		milestone label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+  		bar/.append style={fill=lightgray},    		
+   	]{2019-08}{2021-08}
+   	\gantttitlecalendar{year, month} \\
+	
+	\ganttgroup{\textbf{Biocontrol}}{2019-08}{2021-08} \\		
+	\ganttbar{Continued screening for OrNV biocontrol candidates}{2019-08}{2020-08} \\   		
+	\ganttbar{\emph{In vivo} virus propagation}{2020-07}{2021-08} \\   		
+	\ganttbar{OrNV release by autodissemination}{2020-08}{2021-08} \\   		
+	\ganttbar{Sample pheromone trap catch for OrNV}{2019-08}{2021-08} \\		
+	\ganttbar{Establish and maintain CRB-G and CRB-S lab colonies}{2020-09}{2021-08} \\		
+	\ganttbar{Experiments to compare CRB-G and CRB-S}{2021-03}{2021-08} \\		
+	\ganttmilestone{Decide which OrNV isolate(s) to release}{2020-06} \\		
+	\ganttmilestone{Initiate OrNV release}{2020-07} \\		
+	\ganttmilestone{Review choice of OrNV isolate(s) for release}{2021-01} \\	
+	\ganttlink{elem2}{elem3}
+	\ganttlink{elem5}{elem6}
+		
+	\ganttgroup{\textbf{Pheromone trap and video surveys}}{2019-08}{2021-08} \\
+	\ganttbar{Object detector trained to detect CRB damage in roadside videos}{2019-08}{2020-03}\\
+	\ganttbar{Pre-release surveys}{2020-06}{2020-07} \\
+	\ganttbar{Post-release surveys}{2020-08}{2021-08} \\
+	\ganttmilestone{Quarterly survey reports}{2020-06}
+	\ganttmilestone{}{2020-09}
+	\ganttmilestone{}{2020-12}
+	\ganttmilestone{}{2021-03}
+	\ganttmilestone{}{2021-06}
+	\ganttlink{elem12}{elem13}\\
+
+	\ganttgroup{\textbf{Pacific-wide coordination and collaboration}}{2019-08}{2021-08}\\
+	\ganttmilestone{Quarterly teleconferences}{2020-06}
+	\ganttmilestone{}{2020-09}
+	\ganttmilestone{}{2020-12}
+	\ganttmilestone{}{2021-03}
+	\ganttmilestone{}{2021-06}\\
+	\ganttmilestone{Annual conferences}{2019-11}
+	\ganttmilestone{}{2020-12}\\
+	
+	\ganttgroup{\textbf{APHIS reports}}{2019-08}{2021-08}\\	
+	\ganttmilestone{Semiannual reports}{2020-03}
+	\ganttmilestone{}{2020-09}
+	\ganttmilestone{}{2021-03}\\
+	\ganttmilestone{Final report}{2021-08}
+\end{ganttchart}
+	
+
+\end{document}
